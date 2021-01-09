@@ -1,0 +1,26 @@
+.tags {
+  border-color: #0288d1;
+  box-shadow: 0 1px 0 0 #0288d1;
+
+  &.focus {
+    border-color: #0288d1;
+    box-shadow: 0 1px 0 0 #0288d1;
+  }
+
+  .tags-input {
+    width: 200px !important;
+
+    &:focus + label {
+      color: #0288d1 !important;
+    }
+  }
+}
+
+.chip {
+  margin-top: 0.5rem;
+  background-color: #e1f5fe;
+
+  &:focus {
+    background-color: #0288d1;
+  }
+}

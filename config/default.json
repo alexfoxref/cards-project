@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "mongoUri": "mongodb+srv://alexfoxref:1qazse4rfvgy7@cards-cluster.0hlo8.mongodb.net/cards?retryWrites=true&w=majority",
+  "jwtAccessSecret": "Some secret value for jwt access",
+  "jwtRefreshSecret": "Another secret value for jwt refresh"
+}

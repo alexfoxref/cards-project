@@ -1,0 +1,35 @@
+.search-select {
+  .select-wrapper {
+    input.select-dropdown {
+      border-bottom: 2px solid #0288d1;
+
+      &:focus {
+        border-bottom: 2px solid #0288d1;
+      }
+    }
+
+    .select-dropdown.dropdown-content li {
+      background-color: #fff;
+
+      &:hover {
+        background-color: #b3e5fc;
+      }
+
+      span {
+        color: black;
+      }
+
+      &.selected {
+        background-color: #e1f5fe;
+
+        &:hover {
+          background-color: #b3e5fc;
+        }
+      }
+    }
+  }
+
+  & > label {
+    color: black;
+  }
+}

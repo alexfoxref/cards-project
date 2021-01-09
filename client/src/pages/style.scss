@@ -1,0 +1,56 @@
+.auth-card {
+  padding: 1rem 0.2rem;
+}
+
+.profile-tabs {
+  position: relative;
+  margin-bottom: 1rem;
+
+  .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    width: 50%;
+    background-color: #0288d1;
+
+    &.indicator-left {
+      left: 0;
+    }
+
+    &.indicator-right {
+      left: 50%;
+    }
+  }
+
+  .tab {
+    cursor: pointer;
+
+    &.active {
+      a {
+        background-color: #e1f5fe;
+      }
+    }
+  }
+}
+
+.card-detail {
+  .card-image {
+    img {
+      min-height: 300px;
+    }
+  }
+
+  .card-content {
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    .card-item-buttons {
+      margin-top: 0.5rem;
+
+      button {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+}

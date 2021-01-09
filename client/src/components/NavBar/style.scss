@@ -1,0 +1,21 @@
+nav {
+  margin-bottom: 0.5rem;
+
+  .nav-wrapper {
+    padding: 0 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .logo {
+    cursor: pointer;
+    font-size: 2rem;
+  }
+
+  ul {
+    li {
+      a {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

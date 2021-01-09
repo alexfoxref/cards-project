@@ -1,0 +1,46 @@
+$content-padding: 24px;
+
+.card-item {
+  cursor: pointer;
+
+  &-image {
+    height: 200px;
+    overflow: hidden;
+
+    img {
+      left: 50% !important;
+      top: 50% !important;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  &-content {
+    padding: $content-padding !important;
+
+    p {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      margin-bottom: 0.5rem !important;
+    }
+
+    .chip-empty {
+      height: 40px;
+      width: 100%;
+      background-color: transparent;
+    }
+  }
+
+  &-tags {
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+  }
+
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
