@@ -37,7 +37,7 @@ export const requestActions = {
         headers['Authorization'] = `Bearer ${access_token}`
       }
 
-      const response = await fetch(`${config.BASE_URL}${url}`, {
+      const response = await fetch(url, {
         method,
         body,
         headers,
